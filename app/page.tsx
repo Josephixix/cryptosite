@@ -254,7 +254,7 @@ export default function Home() {
           {/* Right Side – Image */}
           <div className="hidden md:flex md:w-1/2 justify-center">
             <Image
-              src="/bitcoin.jpg"
+              src="/Bitcoin.jpg"
               alt="Crypto trading process illustration"
               width={800}
               height={1200}
