@@ -33,7 +33,7 @@ export default function Hero() {
             className={`text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl mb-2 font-bold leading-tight tracking-tighter ${sofia.className}`}
           >
             Fast And Secure {" "}
-            <span className="bg-gradient-to-r from-orange-600 to-blue-800 bg-clip-text text-transparent">
+            <span className="bg-linear-to-r from-orange-600 to-blue-800 bg-clip-text text-transparent">
               Crypto Currency Exchange
             </span>
           </h1>
@@ -54,7 +54,7 @@ export default function Hero() {
 
         {/* Image content */}
         <div className="relative z-10 w-full max-w-md h-[50dvh] sm:h-[55dvh] md:w-1/2 md:h-[65dvh] lg:h-[75dvh] aspect-square">
-          <div className="absolute inset-0 rounded-xl bg-gradient-to-tr from-blue-500/5 to-orange-400/5 -z-10" />
+          <div className="absolute inset-0 rounded-xl bg-linear-to-tr from-blue-500/5 to-orange-400/5 -z-10" />
           <div className="relative w-full h-full">
             <Image
               src="/hero.jpg"

@@ -101,7 +101,7 @@ export default function Testimonials() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.6 }}
-            className="bg-white p-6 rounded-xl shadow-md flex-shrink-0 w-80 snap-start flex flex-col items-center text-center"
+            className="bg-white p-6 rounded-xl shadow-md shrink-0 w-80 snap-start flex flex-col items-center text-center"
           >
             <div className="w-20 h-20 mb-4">
               <img
@@ -123,7 +123,7 @@ export default function Testimonials() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.6, delay: 0.2 }}
-            className="bg-white p-6 rounded-xl shadow-md flex-shrink-0 w-80 snap-start flex flex-col items-center text-center"
+            className="bg-white p-6 rounded-xl shadow-md shrink-0 w-80 snap-start flex flex-col items-center text-center"
           >
             <div className="w-20 h-20 mb-4">
               <img
@@ -145,7 +145,7 @@ export default function Testimonials() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.6, delay: 0.4 }}
-            className="bg-white p-6 rounded-xl shadow-md flex-shrink-0 w-80 snap-start flex flex-col items-center text-center"
+            className="bg-white p-6 rounded-xl shadow-md shrink-0 w-80 snap-start flex flex-col items-center text-center"
           >
             <div className="w-20 h-20 mb-4">
               <img

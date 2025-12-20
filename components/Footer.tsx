@@ -9,7 +9,7 @@ export default function Footer() {
     <footer className="relative z-10 mt-12 w-full overflow-hidden pt-16 pb-8 text-black">
       
       {/* Background Gradient */}
-      <div className="absolute inset-0 -z-10 bg-gradient-to-t from-orange-400 via-yellow-200 to-white" />
+      <div className="absolute inset-0 -z-10 bg-linear-to-t from-orange-400 via-yellow-200 to-white" />
 
       {/* Background Blobs */}
       <div className="pointer-events-none absolute inset-0 select-none overflow-hidden -z-5">
