@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import {Lora } from "next/font/google"; 
+import {Lora, Sofia_Sans} from "next/font/google"; 
 import "./globals.css";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
@@ -7,6 +7,11 @@ import Footer from "@/components/Footer";
 const lora = Lora ({
   variable: "--font-lora",
   weight: ["700"],
+});
+
+const sofia_sans = Sofia_Sans ({
+  variable: "--font-sofia-sans",
+  weight: ["400", "700"], 
 });
 
 export const metadata: Metadata = {
@@ -25,7 +30,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={` ${lora.variable} antialiased`}
+        className={` ${lora.variable} ${sofia_sans.variable} antialiased`}
       >
         <Navbar />
         {children}

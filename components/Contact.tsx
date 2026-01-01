@@ -1,18 +1,6 @@
 "use client";
 
-import Image from "next/image";
-import Link from "next/link";
-import { Sofia_Sans } from "next/font/google";
 import { motion } from "framer-motion";
-import { u } from "motion/react-client";
-
-
-
-const sofia = Sofia_Sans({
-  subsets: ["latin"],
-  weight: ["400", "700"],
-});
-
 
 
 export default function contact() {
@@ -29,7 +17,7 @@ export default function contact() {
     >
       <div className="w-full max-w-3xl">
         {/* Heading */}
-        <h2 className={`${sofia.className} mt-4 mb-5 text-2xl md:text-4xl font-bold text-center text-orange-600 `}>
+        <h2 className="mt-4 mb-5 text-2xl md:text-4xl font-bold text-center text-orange-600 ">
           Let's Get in Touch
         </h2>
         <p className="text-center text-gray-600 mb-6">
@@ -110,7 +98,7 @@ export default function contact() {
 
           {/* Optional Right Content */}
           <div className="hidden md:flex items-center justify-center">
-            {/* Add an image, map, or contact info here */}
+            
           </div>
         </div>
       </div>

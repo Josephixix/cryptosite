@@ -1,17 +1,10 @@
 "use client";
 
-import Image from "next/image";
-import Link from "next/link";
-import { Sofia_Sans } from "next/font/google";
 import { motion } from "framer-motion";
-import { u } from "motion/react-client";
-import Hero from "@/components/Hero";
 
 
-const sofia = Sofia_Sans({
-  subsets: ["latin"],
-  weight: ["400", "700"],
-});
+
+
 
 const features = [
   {
@@ -37,11 +30,9 @@ const features = [
 
 export default function About() {
   return (
-    
-
         <section className="py-16 bg-gray-500">
       <div className="container mx-auto px-4 text-center">
-        <h2 className={ `${sofia.className} text-3xl sm:text-4xl font-bold mb-12`}>Why Choose Us</h2>
+        <h2 className="text-3xl sm:text-4xl font-bold mb-12">Why Choose Us</h2>
         <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
           {features.map((feature, index) => (
             <motion.div

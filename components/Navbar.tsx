@@ -3,7 +3,7 @@
 import Link from "next/link";
 import { useState } from "react";
 import { Menu, X, Package, Phone, Mail, Truck, Box, Gem } from "lucide-react";
-import {Sofia_Sans} from "next/font/google";
+
 
 
 

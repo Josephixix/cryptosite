@@ -2,16 +2,7 @@
 
 import Image from "next/image";
 import Link from "next/link";
-import { Sofia_Sans } from "next/font/google";
 import { motion } from "framer-motion";
-import { u } from "motion/react-client";
-
-
-const sofia = Sofia_Sans({
-  subsets: ["latin"],
-  weight: ["400", "700"],
-});
-
 
 
 export default function Hero() {
@@ -30,7 +21,7 @@ export default function Hero() {
         {/* Text content */}
         <div className="relative z-10 w-full md:w-1/2 text-center md:text-left max-w-2xl">
           <h1
-            className={`text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl mb-2 font-bold leading-tight tracking-tighter ${sofia.className}`}
+            className={`text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl mb-2 font-bold leading-tight tracking-tighter `}
           >
             Fast And Secure {" "}
             <span className="bg-linear-to-r from-orange-600 to-blue-800 bg-clip-text text-transparent">

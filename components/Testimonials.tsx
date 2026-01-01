@@ -1,17 +1,5 @@
 "use client";
-
-import Image from "next/image";
-import Link from "next/link";
-import { Sofia_Sans } from "next/font/google";
 import { motion } from "framer-motion";
-
-
-
-const sofia = Sofia_Sans({
-  subsets: ["latin"],
-  weight: ["400", "700"],
-});
-
 
 
 export default function Testimonials() {
@@ -20,7 +8,7 @@ export default function Testimonials() {
 
 <section className="py-16 bg-gray-500">
       <div className="container mx-auto px-4 text-center">
-        <h2 className={`${sofia.className} text-2xl font-bold mb-12`}>What Our Users Say</h2>
+        <h2 className=" text-2xl font-bold mb-12">What Our Users Say</h2>
 
         {/* Desktop grid */}
         <div className="hidden lg:grid lg:grid-cols-3 gap-8">

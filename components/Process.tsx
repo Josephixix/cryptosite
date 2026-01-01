@@ -1,18 +1,7 @@
 "use client";
 
 import Image from "next/image";
-import Link from "next/link";
-import { Sofia_Sans } from "next/font/google";
 import { motion } from "framer-motion";
-import { u } from "motion/react-client";
-import Hero from "@/components/Hero";
-import About from "@/components/About";
-
-
-const sofia = Sofia_Sans({
-  subsets: ["latin"],
-  weight: ["400", "700"],
-});
 
 export default function Process() {
   return (
@@ -22,11 +11,10 @@ export default function Process() {
       <div className="px-3 md:px-12 lg:px-24">
         {/* Heading */}
         <div className="text-center mb-12">
-          <h2 className={ `${sofia.className} font-bold mb-4 text-gray-500 text-2xl`}>How We Work</h2>
+          <h2 className=" font-bold mb-4 text-gray-500 text-2xl">How We Work</h2>
           <p
             className={
-              "text-2xl md:text-3xl lg:text-5xl font-bold mb-1 tracking-tighter " +
-              sofia.className
+              "text-2xl md:text-3xl lg:text-5xl font-bold mb-1 tracking-tighter " 
             }
           >
             Our Seamless 4-Step Process
@@ -53,11 +41,11 @@ export default function Process() {
                 <h1 className="text-9xl text-orange-500 opacity-25 select-none">1</h1>
               </div>
               <div className="ml-12">
-                <h3 className={"text-xl md:text-2xl lg:text-3xl font-bold " + sofia.className}>
+                <h3 className={"text-xl md:text-2xl lg:text-3xl font-bold " }>
                   Sign Up & Verify Your Account
                 </h3>
                 <p className="text-gray-500 lg:w-[80vh]">
-                  Create your account and complete verification <br />to start trading securely.
+                  Create your account and complete verifications <br />to start trading securely.
                 </p>
               </div>
             </motion.div>
@@ -74,7 +62,7 @@ export default function Process() {
                 <h1 className="text-9xl text-orange-500 opacity-25 select-none">2</h1>
               </div>
               <div className="ml-12">
-                <h3 className={"text-xl md:text-2xl lg:text-3xl font-bold " + sofia.className}>
+                <h3 className={"text-xl md:text-2xl lg:text-3xl font-bold " }>
                   Deposit Funds
                 </h3>
                 <p className="text-gray-500 lg:w-[80vh]">
@@ -95,7 +83,7 @@ export default function Process() {
                 <h1 className="text-9xl text-orange-500 opacity-25 select-none">3</h1>
               </div>
               <div className="ml-12">
-                <h3 className={"text-xl md:text-2xl lg:text-3xl font-bold " + sofia.className}>
+                <h3 className={"text-xl md:text-2xl lg:text-3xl font-bold " }>
                   Buy or Sell Crypto Instantly
                 </h3>
                 <p className="text-gray-500 lg:w-[80vh]">
@@ -116,7 +104,7 @@ export default function Process() {
                 <h1 className="text-9xl text-orange-500 opacity-25 select-none">4</h1>
               </div>
               <div className="ml-12">
-                <h3 className={"text-xl md:text-2xl lg:text-3xl font-bold " + sofia.className}>
+                <h3 className={"text-xl md:text-2xl lg:text-3xl font-bold " }>
                   Withdraw or Store Securely
                 </h3>
                 <p className="text-gray-500 lg:w-[80vh]">
