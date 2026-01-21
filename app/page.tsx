@@ -5,6 +5,7 @@ import About from "@/components/About";
 import Process from "@/components/Process";
 import Testimonials from "@/components/Testimonials";
 import Contact from "@/components/Contact";
+import Why from "@/components/why";
 
 
 
@@ -14,7 +15,9 @@ export default function Home() {
     <>
     <Hero/>
 
- <About/>
+    <About/>
+
+ <Why/>
 
 <Process/>
 

@@ -35,12 +35,11 @@ export default function Hero() {
             <span className="font-bold text-orange-700">worldwide</span>.
           </p>
 
-          <Link
-            href="/sign-in"
-            className="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium transition-all disabled:pointer-events-none disabled:opacity-50 h-9 px-4 py-2 bg-orange-400 text-white hover:bg-black focus-visible:ring-4 focus-visible:ring-blue-300"
+          <a href="mailto:contact@xerocrypto.com"
+            className="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-full text-sm font-medium transition-all disabled:pointer-events-none disabled:opacity-50 h-9 px-4 py-2 bg-orange-400 text-white hover:bg-black focus-visible:ring-4 focus-visible:ring-blue-300"
           >
-            Connect Wallet 
-          </Link>
+            Contact Us
+          </a>
         </div>
 
         {/* Image content */}
@@ -51,11 +50,11 @@ export default function Hero() {
               src="/hero.jpg"
               alt="crypto trader"
               fill
-              className="object-cover object-center rounded-xl shadow-xl"
+              className="object-cover object-center rounded-xl"
               sizes="(max-width: 768px) 90vw, (max-width: 1024px) 45vw, 33vw"
               priority={false}
             />
-            <div className="absolute bottom-4 right-4 bg-orange-400 text-white px-3 py-1.5 rounded-full font-medium text-xs sm:text-sm flex items-center gap-1 shadow-lg">
+            <div className="absolute bottom-4 right-4 bg-orange-400 text-white px-3 py-1.5 rounded-full font-medium text-xs sm:text-sm flex items-center gap-1">
               <span>🚀</span>
               <span className="">Fast & Secure</span>
             </div>

@@ -9,6 +9,7 @@ export default function contact() {
 
 
          <motion.section
+         id="contact"
       className="flex justify-center items-center py-8 px-3 md:px-12 lg:px-24"
       initial={{ opacity: 0, y: 20 }}
       whileInView={{ opacity: 1, y: 0 }}
@@ -25,7 +26,7 @@ export default function contact() {
         </p>
 
         {/* Form container */}
-        <div className="grid md:grid-cols-2 gap-12 bg-gray-50 border border-gray-200 rounded-xl shadow-sm p-6 md:p-12">
+        <div className="grid md:grid-cols-2 gap-12 bg-gray-50 border border-gray-200 rounded-xl p-6 md:p-12">
           {/* Form */}
           <form className="space-y-6 text-gray-800 w-full">
             {/* Name */}

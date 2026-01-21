@@ -35,28 +35,28 @@ export default function Navbar() {
       {/* Desktop Links */}
       <ul className="hidden lg:flex gap-6 text-lg">
         <li>
-          <Link href="/services" className="hover:text-orange-400 text-black transition">
-            Services
+          <Link href="/" className="hover:text-orange-400 text-black transition">
+          Home
           </Link>
         </li>
         <li>
-          <Link href="/contact" className="hover:text-orange-400 text-black transition">
-            Contact
-          </Link>
-        </li>
-        <li>
-          <Link href="/about" className="hover:text-orange-400 text-black transition">
+          <Link href="#about" className="hover:text-orange-400 text-black transition">
             About
+          </Link>
+        </li>
+        <li>
+          <Link href="#contact" className="hover:text-orange-400 text-black transition">
+            Contact
           </Link>
         </li>
       </ul>
 
       {/* Desktop CTA */}
-      <Link href="/sign-in" className="hidden lg:block">
-        <button className="flex items-center gap-2 px-4 py-2 bg-orange-400 hover:bg-black text-white rounded-md cursor-pointer transition">
-          <Gem className="w-4 h-4" /> Connect Wallet
+      <a href="mailto:contact@xerocrypto.com">
+        <button className="flex items-center gap-2 px-4 py-2 bg-orange-400 hover:bg-black text-white rounded-full cursor-pointer transition">
+          <Gem className="w-4 h-4" /> Contact Us
         </button>
-      </Link>
+      </a>
 
       {/* FULLSCREEN MOBILE MENU */}
       {open && (
@@ -80,14 +80,14 @@ export default function Navbar() {
 
           {/* Menu Items */}
           <div className="flex flex-col gap-6 px-6 py-8 text-lg">
-            <Link href="/services" onClick={() => setOpen(false)} className="flex items-center gap-3 animate-fadeDelay1 hover:bg-orange-400">
-              <Box className="w-5 h-5 text-gray-600" /> <span className="text-gray-600">Services</span>
+            <Link href="/" onClick={() => setOpen(false)} className="flex items-center gap-3 animate-fadeDelay1 hover:bg-orange-400">
+              <Box className="w-5 h-5 text-gray-600" /> <span className="text-gray-600">Home</span>
             </Link>
-            <Link href="/contact" onClick={() => setOpen(false)} className="flex items-center gap-3 animate-fadeDelay2 hover:bg-orange-400">
-              <Phone className="w-5 h-5 text-gray-600" /> <span className="text-gray-600">Contact</span>
+            <Link href="#about" onClick={() => setOpen(false)} className="flex items-center gap-3 animate-fadeDelay2 hover:bg-orange-400">
+              <Phone className="w-5 h-5 text-gray-600" /> <span className="text-gray-600">About</span>
             </Link>
-            <Link href="/about" onClick={() => setOpen(false)} className="flex items-center gap-3 animate-fadeDelay3 hover:bg-orange-400">
-              <Mail className="w-5 h-5 text-gray-600" /> <span className="text-gray-600">About Us</span>
+            <Link href="#contact" onClick={() => setOpen(false)} className="flex items-center gap-3 animate-fadeDelay3 hover:bg-orange-400">
+              <Mail className="w-5 h-5 text-gray-600" /> <span className="text-gray-600">Contact</span>
             </Link>
           </div>
 
@@ -95,7 +95,7 @@ export default function Navbar() {
           <div className="sticky bottom-0 bg-white px-6 pb-6 pt-4 lg:hidden mt-60 border-gray-200 border-t">
             <Link href="/sign-in" onClick={() => setOpen(false)}>
               <button className="w-full flex cursor-pointer items-center justify-center gap-2 px-4 py-3 bg-orange-400 hover:bg-blue-700 text-white rounded-xl text-lg">
-                <Gem className="w-5 h-5 text-black" /> Connect Wallet
+                <Gem className="w-5 h-5 text-black" /> Contact Us
               </button>
             </Link>
             <div className="text-center mt-4 text-gray-700">
