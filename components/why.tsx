@@ -30,7 +30,7 @@ const features = [
 
 export default function Why() {
   return (
-        <section className="py-16 bg-gray-500">
+        <section className="py-16 bg-gray-200">
       <div className="container mx-auto px-4 text-center">
         <h2 className="text-3xl sm:text-4xl font-bold mb-12">Why Choose Us</h2>
         <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">

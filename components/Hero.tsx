@@ -12,7 +12,7 @@ export default function Hero() {
         initial={{ opacity: 0, y: 40 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.7, ease: "easeOut" }}
-        className="relative overflow-hidden px-4 sm:px-8 md:px-16 py-8 lg:px-24 bg-white min-h-[80dvh] md:min-h-[90dvh] lg:min-h-screen flex flex-col md:flex-row items-center justify-between gap-8 md:gap-12"
+        className="relative overflow-hidden px-4 sm:px-8 md:px-16 py-8 lg:px-24 bg-white min-h-[80dvh] md:min-h-[90dvh] mt-12 lg:min-h-screen flex flex-col md:flex-row items-center justify-between gap-8 md:gap-12"
       >
         {/* Background blobs */}
         <div className="absolute top-10 left-10 h-64 w-64 rounded-full bg-blue-500/5 blur-3xl pointer-events-none z-0" />
@@ -29,7 +29,7 @@ export default function Hero() {
             </span>
           </h1>
 
-          <p className="text-sm sm:text-lg font-medium text-muted-foreground mb-8 mt-0.5 text-gray-600 ">
+          <p className="text-sm sm:text-lg font-medium text-muted-foreground mb-8 text-gray-600 ">
          Experience seamless trading with{" "}
             <span className="font-semibold text-orange-600">Xero Crypto</span> your trusted partner in digital assets. Fast, secure, and reliable transactions across hundreds of cryptocurrencies {" "}
             <span className="font-bold text-orange-700">worldwide</span>.

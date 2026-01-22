@@ -6,7 +6,7 @@ export default function Testimonials() {
   return (
 
 
-<section className="py-16 bg-gray-500">
+<section className="py-16 bg-gray-200">
       <div className="container mx-auto px-4 text-center">
         <h2 className=" text-2xl font-bold mb-12">What Our Users Say</h2>
 
